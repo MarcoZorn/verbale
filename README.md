@@ -61,10 +61,12 @@ it is better to be right about that than to guess wrong about four voices.
 Requires Linux with PipeWire or PulseAudio, plus `ffmpeg`.
 
 ```bash
-pipx install verbale        # or: uv tool install verbale
+pipx install git+https://github.com/MarcoZorn/verbale
 verbale pull                # fetch the Whisper weights once
 verbale doctor              # check everything is in place
 ```
+
+<sub>A PyPI release is coming; until then install from the repository.</sub>
 
 For the summaries, [Ollama](https://ollama.com) with any model you like:
 
