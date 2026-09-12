@@ -5,7 +5,7 @@ description = "Meeting notes that never leave your machine. Records, transcribes
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Marco Zorn", email = "m@zorn.it" }]
-requires-python = ">=3.9,<3.14"
+requires-python = ">=3.9"
 keywords = ["meeting-notes", "whisper", "transcription", "local-first", "privacy", "ollama", "offline"]
 classifiers = [
   "Development Status :: 4 - Beta",
